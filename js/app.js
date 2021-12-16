@@ -27,7 +27,7 @@
             countdown = document.getElementById("countdown"),
             content = document.getElementById("content");
   
-          headline.innerText = "Feliz cumple hermosa🖤";
+          headline.innerText = "Feliz cumple a la mas linda del mundo";
           countdown.style.display = "none";
           content.style.display = "block";
   
@@ -36,4 +36,7 @@
         //seconds
       }, 0);
   })();
+  
+
+
   
