@@ -12,10 +12,12 @@
   
   body {
     align-items: center;
-    background-color: #1b1a1b;
+    background-color: #3c005b;
+  background: -webkit-radial-gradient(center, ellipse cover, #3c005b 1%,#0d0011 100%);
+  background: -moz-radial-gradient(center, ellipse cover, #3c005b 1%,#0d0011 100%);
+  background: -ie-radial-gradient(center, ellipse cover, #3c005b 1%,#0d0011 100%);
     display: flex;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    
   }
   
   .contenedor {
@@ -149,6 +151,7 @@
       animation: lights 5s 750ms linear infinite;
     }
 
+    
 
 
 
